@@ -2,6 +2,8 @@
 
 An AWT terminal frontend for [Espressh](https://github.com/passerby-tw/espressh).
 
+<img width="240" height="240" alt="AWTerm" src="https://github.com/user-attachments/assets/8c207de4-d4ff-4fb9-81e8-eab1599e285b" />
+
 AWTerm combines JediTerm's terminal emulator with Espressh's Virtual Terminal Service (VTS). Each launch requests a new virtual terminal and opens a window connected to its own `esh` session. The interface uses Swing components on top of AWT: JediTerm supplies the terminal widget, and AWTerm hosts it in a `JFrame`.
 
 AWTerm is built and packaged independently. It runs as a managed Java application inside Espressh, which supplies the JVK API, VTS, and guest AWT/Swing support.
